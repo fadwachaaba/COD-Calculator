@@ -60,7 +60,7 @@ input[type="text"] {
 
 button {
   font-size: 18px;
-  background-color: #222;
+  background-color: red;
   border: 0;
   color: #fff;
   padding: 10px 20px;

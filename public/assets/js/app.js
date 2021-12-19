@@ -8,7 +8,7 @@ const database = firebase.database();
 customForm.addEventListener("submit", (e) => {
   e.preventDefault();
   database.ref("/users/" + capital.value).set({
-    capital: capital.value,
-    margin: margin.value,
+    capit_al: capital.value,
+    marg_in: margin.value,
   });
 });
