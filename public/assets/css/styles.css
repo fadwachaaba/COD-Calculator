@@ -84,4 +84,7 @@ button {
   .grid {
     flex-direction: column;
   }
+  .form-container {
+    width: 100%;
+  }
 }
