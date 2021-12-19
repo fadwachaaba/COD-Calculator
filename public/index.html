@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>eCommerce COD Business</title>
+  </head>
+  <body>
+    <h1>eCommerce COD Business</h1>
+    <div class="form-container">
+      <form action="" class="custom-form">
+        <div class="grid">
+          <div class="field cols2">
+            <label for="capital">Capital</label>
+            <input
+              type="text"
+              name="capital"
+              id="capital"
+              placeholder="$1000"
+            />
+          </div>
+          <div class="field cols2">
+            <label for="margin">Gross Margin</label>
+            <input type="text" name="margin" id="capital" placeholder="20%" />
+          </div>
+        </div>
+        <div class="field">
+          <button type="submit">Go</button>
+        </div>
+      </form>
+    </div>
+    <div class="results-container">
+      <h2>Results</h2>
+      <div class="years">Years</div>
+    </div>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyA8ZXiPnOcKSbHl7r3_Hnvb1wjGuWMf0sw",
+        authDomain: "cod-calculator.firebaseapp.com",
+        projectId: "cod-calculator",
+        storageBucket: "cod-calculator.appspot.com",
+        messagingSenderId: "749604917855",
+        appId: "1:749604917855:web:0940bd81151e5f474101ea",
+        measurementId: "G-VFH0MZ2GMG",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

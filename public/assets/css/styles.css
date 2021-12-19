@@ -1,0 +1,80 @@
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Lato", sans-serif, serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 25px;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.cols2 {
+  width: calc((100% / 2) - 10px);
+  margin: 10px;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FORM */
+.form-container {
+  margin: 20px auto;
+  max-width: 700px;
+  border: 1px solid transparent;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  font-size: 14px;
+  padding: 10px;
+}
+
+button {
+  font-size: 18px;
+  background-color: #222;
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* RESULTS */
+.results-container {
+  margin: 30px auto;
+  max-width: 800px;
+  border: 1px solid transparent;
+}
+
+.years {
+  text-align: center;
+  margin-top: 10px;
+}
